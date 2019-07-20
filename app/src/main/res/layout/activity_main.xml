@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/fondo1">
+    android:background="#000000">
 
     <ImageView
         android:id="@+id/imageView"
@@ -14,19 +14,20 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="412dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.508"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/logo1" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="3dp"
         android:text="Usuario"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.178"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -38,13 +39,15 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="280dp"
+        android:layout_marginTop="8dp"
         android:text="Contraseña"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.189"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
 
     <EditText
         android:id="@+id/txtPassword"
@@ -53,6 +56,8 @@
         android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
         android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorLink="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -66,6 +71,8 @@
         android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
         android:inputType="text"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -78,7 +85,8 @@
         android:layout_height="41dp"
         android:background="@drawable/button_border"
         android:text="ingresar"
-        android:textColor="@android:color/background_light"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintLeft_toLeftOf="parent"
