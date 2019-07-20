@@ -29,16 +29,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void login() {
-        String user = txtUser.getText().toString();
-        String pass = txtPass.getText().toString();
+        String user = txtUser.getText().toString().trim();
+        String pass = txtPass.getText().toString().trim();
 
-        if(user=="root" && pass=="root"){
-            msg("Accediste");
+        if(user.equals("root") && pass.equals("root")){
+            msg("ingreso");
         }
     }
 
     private void msg(String msg){
         Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
+
     }
 
 }
