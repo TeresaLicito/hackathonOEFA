@@ -1,4 +1,4 @@
-package com.example.marit.oefa;
+package com.example.marit.hackatonoefa;
 
 import org.junit.Test;
 

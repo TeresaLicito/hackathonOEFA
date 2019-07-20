@@ -1,4 +1,4 @@
-package com.example.marit.oefa;
+package com.example.marit.hackatonoefa;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.marit.oefa", appContext.getPackageName());
+        assertEquals("com.example.marit.hackatonoefa", appContext.getPackageName());
     }
 }
