@@ -38,16 +38,16 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="228dp"
+        android:layout_marginBottom="280dp"
         android:text="Contraseña"
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.234"
+        app:layout_constraintHorizontal_bias="0.222"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/txtPassword"
         android:layout_width="261dp"
         android:layout_height="47dp"
         android:backgroundTint="@color/colorPrimaryDark"
@@ -60,12 +60,12 @@
         app:layout_constraintVertical_bias="0.687" />
 
     <EditText
-        android:id="@+id/password2"
+        android:id="@+id/txtUser"
         android:layout_width="261dp"
         android:layout_height="51dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -73,7 +73,7 @@
         app:layout_constraintVertical_bias="0.474" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIngresar"
         android:layout_width="258dp"
         android:layout_height="41dp"
         android:background="@drawable/button_border"
